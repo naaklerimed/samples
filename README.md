@@ -16,10 +16,6 @@
     
 ##C++ Code Samples
 
-      BestKet Operations
-    
-      BestKetDLL
-    
       DataFinal
   
       BayesianClassifier
