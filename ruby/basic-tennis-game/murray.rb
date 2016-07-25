@@ -1,6 +1,6 @@
-require_relative 'Weapon'
+require_relative 'Character'
 
-class Forehand < Weapon
+class Murray < Character
   def initialize(strength, speed, skill, luck)
     super
   end

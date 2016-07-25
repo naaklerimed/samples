@@ -1,6 +1,6 @@
 require_relative 'Weapon'
 
-class Forehand < Weapon
+class Backhand < Weapon
   def initialize(strength, speed, skill, luck)
     super
   end
