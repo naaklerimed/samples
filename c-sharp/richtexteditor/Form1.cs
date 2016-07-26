@@ -38,7 +38,7 @@ namespace GUIFinal
             
         }
 
-        
+        //open button        
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Stream myStream = null;
@@ -79,7 +79,7 @@ namespace GUIFinal
                 }
             }
         }
-
+        //saving operation
         private void Save()
         {
             if (!fileOpened)
@@ -132,7 +132,7 @@ namespace GUIFinal
         }
 
         
-
+        //other simple ops like exit,undo,redo, copy etc.
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -316,7 +316,7 @@ namespace GUIFinal
             else if (textBox1.Text.Substring(0,5) == "Setcl") { string n1 = textBox1.Text.ToString(); SetclN(n1); }
 
         }
-
+        //special features
         private void SetclN(string n1)
         {
             string[] n = n1.Split(' ');
