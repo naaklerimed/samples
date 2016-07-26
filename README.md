@@ -16,15 +16,13 @@
     
 ##C++ Code Samples
 
-      DataFinal
-  
-      BayesianClassifier
+        BayesianClassifier
     
 ##Java Code Samples (Non-Android Projects)
   
       Scientific Calculator
     
-      CountryInfo
+      Country Selector
     
 ##Ruby Code Samples
   
